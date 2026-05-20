@@ -12,6 +12,8 @@ elif operacao == "+":
     result = val1 + val2
 elif operacao == "-":
     result = val1 - val2
+elif operacao == "**":
+    result = val1 ** val2
 
 print("Resultado da operação:" ,result)
 
